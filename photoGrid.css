@@ -1,7 +1,23 @@
 div {
-	width: 100%
+	width: 100%;
+	text-align: center;	
 }
-
+h1 {
+	font-family: 'Rozha One', serif;
+	font-size: 70px;
+	margin: auto 10px;
+}
+p	{
+	font-family: 'Raleway', sans-serif;
+	margin: auto 10px;
+}
 img {
-	width: 33%
+	width: 30%;
+	max-height: 15em;
+	float: left;
+	margin: 1.66%;
+}
+img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
